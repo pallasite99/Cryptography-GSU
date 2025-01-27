@@ -85,7 +85,7 @@ Upon successful completion of this course, students will be able to:
 ---
 
 ## Instructor Information
-- **Instructor**: [Dr. Wei (Lisa) Li]
+- **Instructor**: [Dr. Wei (Lisa) Li](https://tinman.cs.gsu.edu/~wli28/)
 ---
 
 ## Academic Integrity
