@@ -37,10 +37,11 @@ def test_invalid_key_stream_length():
 
 
 def test_empty_plaintext():
-    """Test if encrypting and decrypting an empty plaintext raises an error."""
+    """Test if generate_key_stream raises an error for empty plaintext."""
     plaintext = b""
     with pytest.raises(ValueError):
-        key_stream = generate_key_stream(len(plaintext))
+        generate_key_stream(len(plaintext))
+
     ciphertext = encrypt_decrypt(plaintext, key_stream)
     decrypted_text = encrypt_decrypt(ciphertext, key_stream)
     assert decrypted_text == plaintext, "Empty plaintext decryption failed."
