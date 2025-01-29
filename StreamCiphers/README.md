@@ -4,6 +4,8 @@ A **stream cipher** is a type of symmetric encryption algorithm that encrypts pl
 
 ---
 
+![image](https://github.com/user-attachments/assets/b61c366f-7f4f-4895-8dc4-6e1ff3b44873)
+
 ## Key Features
 
 1. **Bit-by-Bit Encryption**:
