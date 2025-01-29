@@ -16,6 +16,10 @@ To run DES encryption/decryption in Python, install the required package:
 pip install pycryptodome
 ```
 
+```sh
+pip install pycryptodomex
+```
+
 ## Usage
 ### Encrypting Data
 ```python
