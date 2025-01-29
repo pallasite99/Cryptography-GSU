@@ -2,7 +2,10 @@
 Module for basic DES encryption and decryption.
 """
 import binascii  # Standard library import
-from Cryptodome.Cipher import DES  # Third-party library import
+try:
+    from Cryptodome.Cipher import DES  # Third-party library import
+except ImportError:
+    from Crypto.Cipher import DES  # Fallback import for some environments
 
 def pad(text):
     """Pads input text to make it a multiple of 8 bytes."""
