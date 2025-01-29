@@ -1,3 +1,7 @@
+"""
+Module for stream cipher encryption and decryption.
+"""
+
 import os
 
 def generate_key_stream(length):
