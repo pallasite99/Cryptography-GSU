@@ -1,3 +1,7 @@
+"""
+Module for stream cipher encryption and decryption.
+"""
+
 import pytest
 from StreamCiphers.cipher import generate_key_stream, encrypt_decrypt
 
