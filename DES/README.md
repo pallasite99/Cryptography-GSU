@@ -1,5 +1,7 @@
 # Data Encryption Standard (DES)
 
+![image](https://github.com/user-attachments/assets/68d53bf6-d81a-4bdc-b229-570c13340643)
+
 ## Overview
 The **Data Encryption Standard (DES)** is a symmetric-key block cipher developed by IBM and adopted by the U.S. government in 1977. It encrypts data in 64-bit blocks using a 56-bit key, following a **Feistel network** structure with 16 rounds of processing.
 
